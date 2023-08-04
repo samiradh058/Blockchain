@@ -1,0 +1,289 @@
+body{
+    margin: 0;
+    text-align: center;
+}
+
+/* Very Top */
+
+.very-top{
+    background-image: linear-gradient(to right, rgb(15, 24, 44), rgb(11, 51, 82), rgb(18, 103, 175), rgb(23, 89, 218), rgb(18, 103, 175), rgb(11, 51, 82), rgb(15, 24, 44));
+    color: #fff;
+}
+
+.very-top:hover{
+    background-image: linear-gradient(to right, rgb(15, 24, 44), rgb(11, 51, 82), rgb(16, 87, 150), rgb(16, 87, 150), rgb(11, 51, 82), rgb(15, 24, 44));
+}
+
+h5{
+    font-size: 1.05rem;
+    font-weight: 500;
+    padding: 0.75rem 1rem;
+    margin-bottom: 0;
+}
+
+/* Navbar */
+
+.navbar{
+    background-color: rgb(44, 61, 97);
+    padding-top:1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 2%;
+}
+
+.brand-img{
+    padding-right: 6%;
+}
+
+.navbar-brand{
+    color: white;
+    font-weight: 700;
+    font-size: 1.5rem;
+    padding: 3px 30px 8px 0;
+}
+
+.com{
+    color: rgb(157, 162, 167);
+}
+
+.nav-link{
+    color: #d8d5d5;
+    font-weight: 500;
+    margin: 0 0.5rem;
+}
+
+.navbar-brand:hover{
+    color: #fff;
+}
+
+.nav-link:hover{
+    color: #d8d5d5;
+    background-color: rgba(147, 160, 189, 0.2);
+}
+
+.dropdown{
+    list-style: none;
+    margin-top: 0.4rem;
+    margin-right: 3%;
+}
+
+.dropdown-item{
+    font-weight: 600;
+}
+
+.fa-magnifying-glass{
+    background-color: rgba(147, 160, 189, 0.2);
+    border-radius: 100%;
+    margin-right: 5%;
+    padding-left: 10px;
+    padding-top: 12px;
+    padding-right: 10px;
+}
+
+.log-in{
+    border-width: 2px;
+    margin-right: 1rem;
+}
+
+.log-in:hover{
+   background-color: transparent;
+   color: #fff;
+}
+
+.line{
+    border: 0.01px solid rgb(241, 236, 236);
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+.ham{
+    margin-right: 0.9rem;
+    border: 0;
+    padding-left: 4%;
+}
+
+@media (min-width: 991px) {
+    .sign-up{
+        margin-right: 0.8rem;
+    }
+}
+
+@media (max-width: 598px) {
+    .navbar-brand {
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .icon-box{
+        display: block;
+        margin: 0 auto;
+        text-align: center;
+    }  
+}
+
+/* Main Block */
+
+.main{
+    margin-top: 0;
+    height: fit-content;
+    background-image: linear-gradient(to bottom right,rgb(44, 61, 97), rgb(11, 51, 82), rgb(18, 103, 175), rgba(211, 79, 182));
+    padding: 10rem 0 8rem 0;
+}
+
+.be-early{
+    text-align: left;
+    color: #fff;
+    font-size: 3rem;
+    font-weight: 700;
+    line-height:3rem;
+    margin-bottom: 1.6rem;
+}
+
+.description{
+    text-align: left;
+    color: #fff;
+    font-size: 1.7rem;
+    font-weight: 500;
+    line-height: 2.125rem;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+    margin-top: 4%;
+}
+
+.short-input{
+    width: 50%;
+    margin-right: 3%;
+    height: 50px;
+    background-color: rgba(255, 255, 255, 0.1);
+    border: none;
+}
+
+.short-input::placeholder{
+    color: #fff;
+    font-size: 0.9rem;
+    font-weight: 500;
+    margin-left: 91px;
+}
+
+.sign-btn{
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20px;
+    padding-right: 20px;
+    color: blue;
+    font-weight: 500;
+}
+
+.gif-img {
+    margin-right: 2rem;
+    cursor: pointer;
+    float: right;
+    margin-bottom: 0;
+}
+
+.gif{
+    width: 60px;
+    height: 60px;
+    border-radius: 100%;
+    margin-right: 2rem;
+    margin-top: 2rem;
+}
+
+.hover-text{
+    display: inline;
+    float: right;
+    margin-right: 2rem;
+    margin-top: -2rem;
+    background-color: red;
+    color: #fff;
+    font-size: 25px;
+    font-weight: 500;
+    padding: 2px 19px;
+    border-radius: 30px;
+    border: 2px solid black;
+    opacity: 0;
+    text-decoration: none;
+}
+
+.gif-img:hover .gif{
+    opacity: 0;
+}
+
+.gif-img:hover .hover-text{
+    opacity: 1;
+}
+
+/* Cards */
+
+.curr-card{
+    margin-top: -80px;
+}
+
+.coin-card{
+    margin: 3% 0;
+}
+
+.img-btn{
+    margin: 3% 5%;
+}
+
+.card-img-top{
+   text-align: left;
+   margin-left: 4px;
+}
+
+.buy-btn{
+    background-color: rgba(0, 123, 255, 0.3);
+    color: rgb(111, 0, 255);
+    font-weight: 500;
+    border: none;
+}
+
+.trade-btn{
+    background-color: rgba(40, 167, 69, 0.3);
+    color: green;
+    font-weight: 500;
+    border: none;
+}
+
+.card-title{
+    text-align: left;
+    padding-left: 0;
+}
+
+.card-body{
+    padding-top: 0;
+}
+
+.bit{
+    color: rgb(114, 113, 116);
+    margin-left: 8px;
+}
+
+.currency{
+    padding-bottom: 8px;
+}
+
+.amount{
+    padding-top: 0;
+}
+
+.inc{
+    color: green;
+    padding-left: 3%;
+}
+
+.dec{
+    color: red;
+    padding-left: 3%;
+}
+
+@media(max-width:575px){
+    .coin-card{
+        width: 60%;
+        margin: 3% auto;
+    }
+}
